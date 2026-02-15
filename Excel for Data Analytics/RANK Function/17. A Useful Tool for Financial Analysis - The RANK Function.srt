@@ -1,0 +1,99 @@
+1
+00:00:00,240 --> 00:00:07,960
+Very few people know about the rank function even fewer use it in practice.
+
+2
+00:00:07,960 --> 00:00:14,380
+This is all the more reason to understand what it does and how it serves you in practice.
+
+3
+00:00:14,380 --> 00:00:20,710
+It is more than likely that you will face a situation where you will have to rank a company's clients
+
+4
+00:00:21,160 --> 00:00:28,430
+suppliers employees or water suppliers in a list based on specific criteria.
+
+5
+00:00:28,450 --> 00:00:36,370
+For example if you are ranking clients you might want to understand which client account drove the highest
+
+6
+00:00:36,370 --> 00:00:41,660
+gross profit or revenues if you are ranking suppliers.
+
+7
+00:00:41,710 --> 00:00:49,140
+You might want to find out which supplier invoiced the highest amount and so on and so forth.
+
+8
+00:00:49,150 --> 00:00:56,950
+Some people would do such a comparison by using custom sort and sorting according to a specific column.
+
+9
+00:00:56,950 --> 00:01:03,490
+But that's far from ideal because it requires you to change your source data and takes away some of
+
+10
+00:01:03,490 --> 00:01:06,780
+the flexibility that formulas could give you.
+
+11
+00:01:06,790 --> 00:01:09,990
+This is where rank function comes into play.
+
+12
+00:01:10,060 --> 00:01:13,150
+It works in a very straightforward manner.
+
+13
+00:01:13,270 --> 00:01:17,390
+Its first argument is the number to be rank power case.
+
+14
+00:01:17,530 --> 00:01:25,750
+This is the first number in this range of cells then the second argument simply consists in the range
+
+15
+00:01:25,750 --> 00:01:34,640
+of cells to be ranked with respect to I'LL FIX THE RANGE references as I will paste the function downwards
+
+16
+00:01:34,880 --> 00:01:39,020
+in a moment Okay perfect.
+
+17
+00:01:39,120 --> 00:01:46,140
+What Excel will do in this situation is go ahead and compare the number we have selected as our first
+
+18
+00:01:46,140 --> 00:01:53,340
+argument with respect to the rest of the numbers in the range of cells chosen as a second argument.
+
+19
+00:01:53,370 --> 00:01:58,010
+Simple as that and here's the result.
+
+20
+00:01:58,380 --> 00:02:04,980
+If I copy and paste the function downwards I'll obtain the rank of each of the cells within the indicated
+
+21
+00:02:04,980 --> 00:02:13,070
+range what's even neater is that we can then use a v lookup function to transfer this ranking to a different
+
+22
+00:02:13,070 --> 00:02:16,310
+sheet and all of this would remain dynamic.
+
+23
+00:02:17,330 --> 00:02:24,420
+Here is a sheet where we have a list of our top 10 client accounts for the latest a month next month.
+
+24
+00:02:24,420 --> 00:02:31,470
+If the top 10 customers change the ranking in the source sheets would change as well and the list reported
+
+25
+00:02:31,470 --> 00:02:36,000
+here would update automatically quite nice writes.

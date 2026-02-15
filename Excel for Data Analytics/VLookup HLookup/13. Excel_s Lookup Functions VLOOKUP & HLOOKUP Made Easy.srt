@@ -1,0 +1,335 @@
+0
+1
+00:00:06,360 --> 00:00:14,000
+Hallo, in diesem Video werden wir zwei der
+Excel-Lookup-Funktionen sehen: "Sverweis" und "Hverweis". Sie gehören zu den an den häufigsten verwendeten Werkzeugen
+in Excel, weil sie es den Nutzern ermöglichen, 
+1
+
+2
+00:00:14,010 --> 00:00:19,300
+große Datenmengen anhand eines bestimmten Kriteriums zu übertragen. Schauen wir uns ihre Anwendung 
+2
+
+3
+00:00:19,300 --> 00:00:24,939
+in der Praxis an. Es gibt zwei Tabellen in diesem Arbeitsblatt. 
+3
+
+4
+00:00:24,939 --> 00:00:31,269
+Die Tabelle auf der linken Seite ist diejenige, die wir in unseren vorherigen Beispielen gesehen haben, während die Tabelle auf der rechten Seite eine neue ist. 
+4
+
+5
+00:00:31,269 --> 00:00:37,440
+Sie ist der Tabelle auf der linken Seite wirklich ähnlich, enthält aber nur einige der Teams. 
+5
+
+6
+00:00:37,440 --> 00:00:42,899
+Ihr Inhalt ist leer und muss ausgefüllt werden. Wir möchten eine Formel verwenden, die die entsprechenden Felder
+6
+
+7
+00:00:42,899 --> 00:00:48,320
+in der Tabelle links findet und rechts einträgt. 
+7
+
+8
+00:00:48,320 --> 00:00:54,940
+"Sverweis" ist für solche Zwecke geeignet. Schauen wir uns die vier Argumente der Funktion an.
+8
+
+9
+00:00:54,940 --> 00:01:03,870
+Suchkriterium: Der zu findende
+Wert, oder anders gesagt, der Wert, der als Schlüssel
+dient 
+9
+
+10
+00:01:03,870 --> 00:01:10,659
+und die Verbindung mit der Datenquelle herstellt. (In unserem Fall handelt es sich um Latium und Fiorentina 
+10
+
+11
+00:01:10,659 --> 00:01:21,409
+in den Zellen H4 und H5.)  
+Matrix: Die Tabelle, in der wir nach dem zu findenden Wert suchen
+11
+
+12
+00:01:21,409 --> 00:01:28,270
+(die Tabelle links, oder nennen wir sie die Quelltabelle,
+12
+
+13
+00:01:28,270 --> 00:01:35,990
+also die Tabelle, aus der wir Daten extrahieren). 
+Spaltenindex: Die Spalte, aus der wir einen Wert extrahieren möchten, 
+13
+
+14
+00:01:35,990 --> 00:01:45,479
+wenn es ein Match gibt. 
+Bereich Verweis: Sagt der Formel, wo Sie nach dem wahrscheinlichsten Match oder nach einem exakten Match suchen soll. 
+14
+
+15
+00:01:45,479 --> 00:01:51,430
+Die beiden möglichen Werte für dieses Argument sind TRUE oder FALSE: 
+15
+
+16
+00:01:51,430 --> 00:01:57,250
+Wenn wir "True" wählen, sagen wir, dass es in Ordnung ist, das nächstgelegene Match zu finden, 
+16
+
+17
+00:01:57,250 --> 00:02:03,070
+während "FALSE" angibt, dass wir ein exaktes Match wollen.  Bitte beachten Sie, dass der zu findende Wert, 
+17
+
+18
+00:02:03,070 --> 00:02:09,020
+das "Suchkriterium," in der ersten Spalte der
+Quelltabelle liegen muss. 
+18
+
+19
+00:02:09,020 --> 00:02:15,390
+Mal sehen, wie die Formel in unserem kleinen, aber leicht verständlichen Beispiel angewendet wird. 
+19
+
+20
+00:02:15,390 --> 00:02:22,620
+In der Tabelle rechts haben wir die Mannschaften Lazio und Borussia.
+20
+
+21
+00:02:22,620 --> 00:02:29,730
+Unser Ziel ist es, die Informationen, die damit verbunden sind, aus der Quelltabelle zu extrahieren.
+21
+
+22
+00:02:29,730 --> 00:02:40,880
+Geben wir + Sverweis ein, wählen
+als Aussichtswert H4 (das ist der Name des Teams Lazio),
+22
+
+23
+00:02:40,880 --> 00:02:49,790
+und wählen Sie eine Tabelle, wo Sie die Zellen von B4 bis F12, oder wie wir es nennen, unsere Quelltabelle suchen.
+23
+
+24
+00:02:49,790 --> 00:02:57,260
+Wir können sofort feststellen, dass unser Suchkriterium "Lazio" in der ersten Spalte der ausgewählten Tabelle enthalten ist,
+24
+
+25
+00:02:57,260 --> 00:03:03,270
+was gut ist, da es eine notwendige Bedingung ist, wie wir bereits gesagt haben. 
+25
+
+26
+00:03:03,270 --> 00:03:10,450
+Geben wir "2" als drittes Argument der Formel ein, da wir das Feld "Land" befüllen wollen, das die zweite Spalte 
+26
+
+27
+00:03:10,450 --> 00:03:17,470
+in der Quelltabelle ist. Das letzte Argument wird "FALSE" sein,  weil wir ein exaktes Match brauchen.
+27
+
+28
+00:03:17,470 --> 00:03:25,351
+Wie Sie sehen können, war die Funktion in der Lage zu erkennen, dass der Wert, den wir suchten, Lazio war 
+28
+
+29
+00:03:25,351 --> 00:03:31,350
+und es lieferte uns das Ergebnis aus der zweiten Spalte der Quelltabelle – "Italien."
+29
+
+30
+00:03:31,350 --> 00:03:37,590
+Lassen Sie uns die Formel kopieren und fügen wir sie in H5, wo wir Borussia haben, ein.
+30
+
+31
+00:03:37,590 --> 00:03:44,100
+Wir erhalten eine Fehlermeldung von Excel. Die "Nicht verfügbar" Meldung sagt uns, dass Excel nicht in der Lage war, einen Wert zu finden,
+31
+
+32
+00:03:44,100 --> 00:03:49,680
+der dem entspricht, den wir in der ersten Spalte der Tabelle gesucht haben. 
+32
+
+33
+00:03:49,680 --> 00:03:55,230
+Wir wissen mit Sicherheit, dass es einen Fehler gibt, da wir sehen können,  dass die Borussia in der ersten Reihe 
+33
+
+34
+00:03:55,230 --> 00:04:01,070
+und in der ersten Spalte der Quelltabelle steht. Klicken wir auf F2 und sehen Sie, 
+34
+
+35
+00:04:01,070 --> 00:04:07,460
+welche Argumente in der Formel berücksichtigt werden und überprüfen Sie, ob sie diejenigen sind, die ausgewählt werden mussten. 
+35
+
+36
+00:04:07,460 --> 00:04:15,341
+Ja, es gab ein Problem, da die Quelltabelle ihren Standort änderte. 
+36
+
+37
+00:04:15,341 --> 00:04:22,009
+Wir haben seine Referenzen nicht mit Dollarzeichen fixiert. Lassen Sie uns unsere Formel korrigieren.
+37
+
+38
+00:04:22,009 --> 00:04:33,370
+OK, jetzt sollte es funktionieren ... Und das tut es auch. 
+Kopieren wir die Formel nach rechts. 
+38
+
+39
+00:04:33,370 --> 00:04:41,240
+Auch hier erhalten wir die gleiche Fehlermeldung. Dieses Mal ist das Problem, dass das Suchkriterium seine Position änderte.
+39
+
+40
+00:04:41,240 --> 00:04:46,919
+Wir müssen uns auch darum kümmern, indem wir es daran hindern, seine Spaltenposition zu ändern,
+40
+
+41
+00:04:46,919 --> 00:04:51,479
+indem wir ein Dollarzeichen vor die Spaltenreferenz setzen. 
+41
+
+42
+00:04:51,479 --> 00:04:58,169
+Unsere Ausgabe ist "Italien". Es ist das gleiche wie zuvor, weil wir auch die Anzahl der Spalte ändern müssen,
+42
+
+43
+00:04:58,169 --> 00:05:05,199
+aus der Sverweis eine Extraktion durchführt. Es auf "3" zu ändern, sollte dieses Problem lösen. 
+43
+
+44
+00:05:05,199 --> 00:05:14,069
+Und das tut es. Das Ergebnis ist "Nein", und es ist richtig, da Lazio 
+44
+
+45
+00:05:14,069 --> 00:05:22,009
+nicht an der Champions League teilgenommen hat. Nun müssen wir die Formel für den Rest der Tabelle kopieren 
+45
+
+46
+00:05:22,009 --> 00:05:27,490
+und uns daran erinnern, die Spaltenindex-Nummer zu ändern, wenn wir Auszüge aus neuen Spalten machen. 
+46
+
+47
+00:05:27,490 --> 00:05:37,189
+Lassen Sie uns uns weitermachen und sehen, wie die "Hverweis"-Funktion funktioniert. 
+47
+
+48
+00:05:37,189 --> 00:05:43,840
+Sie ist ganz ähnlich zum "Sverweis“. Das Einzige, was sich ändert, ist die Richtung.
+48
+
+49
+00:05:43,840 --> 00:05:49,569
+Man könnte sagen, dass "Sverweis" in Bezug auf Spalten funktioniert, während Hverweis in Bezug auf die Zeilen arbeitet. 
+49
+
+50
+00:05:49,569 --> 00:05:57,449
+Der Suchwert befindet sich in der ersten Zeile der Quelltabelle, und wir müssen die Zeile der Tabelle angeben, 
+50
+
+51
+00:05:57,449 --> 00:06:03,169
+aus der die notwendigen Daten extrahiert werden sollen.  Schauen wir es uns anhand eines Beispiels an.
+51
+
+52
+00:06:03,169 --> 00:06:09,601
+Wir haben links eine uelltabelle und rechts eine Tabelle. 
+52
+
+53
+00:06:09,601 --> 00:06:16,499
+Die Hverweis-Funktion benötigt die gleichen Argumente wie Sverweis: Geben wir "Hverweis" ein,
+53
+
+54
+00:06:16,499 --> 00:06:28,310
+wählen als Suchkriterium Milan in H4 aus und fixieren nur die Spaltenreferenz "H," 
+54
+
+55
+00:06:28,310 --> 00:06:34,800
+um die Spaltenbewegung unseres Suchkriteriums zu blockieren, aber ihr zu erlauben, flexibel für die Zeilen zu bleiben. 
+55
+
+56
+00:06:34,800 --> 00:06:41,490
+Wir müssen auch die Quelltabelle auswählen. Ich werde alle Referenzen fixieren, 
+56
+
+57
+00:06:41,490 --> 00:06:52,860
+um unsere spätere Arbeit zu erleichtern. Nun braucht "Hverweis" von uns, eine Zeilenauswahl als drittes Argument, um daraus den Wert zu extrahieren. 
+57
+
+58
+00:06:52,860 --> 00:06:59,080
+Da wir nach "Country" suchen und es in der
+zweiten Reihe der Quelltabelle ist, 
+58
+
+59
+00:06:59,080 --> 00:07:04,490
+werde ich "2" auswählen. Das vierte Argument 
+59
+
+60
+00:07:04,490 --> 00:07:14,870
+wird "FALSE" sein, weil wir ein exaktes Match brauchen. Nachdem wir die Auswahl der Argumente der Funktion abgeschlossen haben, können wir die Klammern schließen.
+60
+
+61
+00:07:14,870 --> 00:07:21,229
+Das Ergebnis, das wir erreichen, ist Italien. Die Formel scheint zu funktionieren.
+61
+
+62
+00:07:21,229 --> 00:07:27,620
+Wir können sie für den Rest der Tabelle anwenden. Das Einzige, was geändert werden muss,
+62
+
+63
+00:07:27,620 --> 00:07:34,180
+ist die jeweilige Zahl der Zeile, aus der wir Daten extrahieren müssen.
+63
+
+64
+00:07:34,180 --> 00:07:43,090
+Dies war unser Video, das den Suchfunktionen gewidmet war. Wir hoffen, dass Sie es für nützlich hielten. 
+64
+
+65
+00:07:43,090 --> 00:07:46,669
+Danke fürs Zuschauen.

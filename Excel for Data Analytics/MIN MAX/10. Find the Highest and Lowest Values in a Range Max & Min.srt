@@ -1,0 +1,47 @@
+1
+
+00:00:00,359  -->  00:00:08,259
+"Max" und "Min" sind zwei Formeln, die sehr
+direkt in ihrer Anwendung sind. Das einzige
+
+2
+
+00:00:08,259  -->  00:00:13,509
+Argument, das wir in der "Max"-Formel eingeben
+müssen, ist das Zahlenfeld, in dem wir die
+
+3
+
+00:00:13,509  -->  00:00:17,770
+Größte finden wollen. Um das Team zu finden,
+das die höchste Punktzahl erzielt hat,
+
+4
+
+00:00:17,770  -->  00:00:25,710
+tippen Sie "Max" und wählen Sie den Bereich der
+Zellen von F4 bis F12. Wir sehen, dass uns
+
+5
+
+00:00:25,710  -->  00:00:31,360
+die Formel ein richtiges Ergebnis beschert
+hat: 90 Punkte. Die höchste Punktzahl ist 90,
+
+6
+
+00:00:31,360  -->  00:00:38,960
+und sie wurde von Bayern München erreicht. Die Formel "Min"
+funktioniert ähnlich: Sie findet die kleinste Punktzahl in
+
+7
+
+00:00:38,960  -->  00:00:43,781
+einem ausgewählten Bereich. Wenn wir den
+gleichen Zellbereich wählen und die Formel
+
+8
+
+00:00:43,781  -->  00:00:50,180
+"Min" tippen, werden wir feststellen, dass Hamburg
+die niedrigste Punktzahl erzielt hat: 27.

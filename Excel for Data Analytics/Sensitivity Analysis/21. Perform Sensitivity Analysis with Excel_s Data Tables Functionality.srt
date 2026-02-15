@@ -1,0 +1,215 @@
+1
+
+00:00:05,720  -->  00:00:12,690
+Hallo wieder. In diesem Video lernen wir, wie man
+Datentabellen verwendet. In diesem Blatt können wir die
+
+2
+
+00:00:12,690  -->  00:00:19,090
+Berechnung der Höhe des Geldes sehen, das ein Unternehmen an Schulden
+hat, wenn es heute einen Kredite von 1.000 [Relative Geldeinheiten]
+
+3
+
+00:00:19,090  -->  00:00:24,810
+aufnimmt und in fünf Jahren zurückzahlt (nehmen wir an,
+dass das Unternehmen seine Schulden und Zinsen mit
+
+4
+
+00:00:24,810  -->  00:00:30,720
+einer einzigen Zahlung am Ende der Laufzeit des Darlehens
+erstattet). Hier ist der Zinssatz, den das Unternehmen
+
+5
+
+00:00:30,720  -->  00:00:37,470
+Unternehmen zahlen muss, um das Geld auszuleihen. Lassen
+Sie uns vermuten, dass er auf 10 Prozent festgelegt ist
+
+6
+
+00:00:37,470  -->  00:00:43,680
+und sich nicht ändern wird. Die Berechnung, die wir hier in
+dieser Zelle haben, deutet darauf hin, dass das Unternehmen in
+
+7
+
+00:00:43,680  -->  00:00:52,350
+fünf Jahren 1.611 RG zurückzahlen muss. Die oben genannten
+Parameter sind die notwendigen Eingänge für die
+
+8
+
+00:00:52,350  -->  00:00:58,940
+Berechnung. Wäre es nicht schön, wenn wir sehen könnten, wie
+unterschiedlich der Betrag, der zurückgezahlt werden muss,
+
+9
+
+00:00:58,940  -->  00:01:06,290
+ausfällt, wenn ein oder zwei der Eingänge unterschiedlich
+wären? Was zum Beispiel, wenn der Zinssatz 9
+
+10
+
+00:01:06,290  -->  00:01:13,720
+oder 8 Prozent betrüge? Oder wie viel müsste
+das Unternehmen zahlen, wenn es das Geld vier
+
+11
+
+00:01:13,720  -->  00:01:20,990
+Jahre lang geliehen hätte? Excel ermöglicht uns dies
+durch die Verwendung von Datentabellen. Geben wir
+
+12
+
+00:01:20,990  -->  00:01:27,850
+einen Haufen möglicher Werte für den Zinssatz
+in eine Zeile ein. Ich gehe auf 10, 11, 12 und
+
+13
+
+00:01:27,850  -->  00:01:35,490
+13 Prozent. OK, geben wir einige Werte über die
+Anzahl der Zeiträume ein, für die das Unternehmen
+
+14
+
+00:01:35,490  -->  00:01:45,590
+das Geld nimmt. Sagen wir 2, 3, 4 und 5 [Realtive
+Zeiteinheiten]. Okay. Wir haben die Kreuzung der beiden
+
+15
+
+00:01:45,590  -->  00:01:50,840
+Zahlenreihen leer gelassen, da wir dort
+einen Hinweis auf die Formel setzen werden,
+
+16
+
+00:01:50,840  -->  00:01:58,340
+die den zu zahlenden Betrag berechnet; Er ist in C8. Ich muss
+nur ein „Gleichheitszeichen" eingeben und dann die Zelle
+
+17
+
+00:01:58,340  -->  00:02:05,200
+C8 auswählen. Nachdem wir dies getan haben, müssen
+wir die Zellen auf folgende Weise auswählen und
+
+18
+
+00:02:05,200  -->  00:02:14,030
+in die Menüleiste gehen, "Daten" wählen, den Button
+"Was wäre wenn Analyse" wählen und "Datentabellen"
+
+19
+
+00:02:14,030  -->  00:02:21,711
+auswählen. Die beiden Parameter in der Dialogbox sind
+"Werte aus Reihe" und "Werte aus Spalte". Das sind
+
+20
+
+00:02:21,711  -->  00:02:27,810
+die Parameter, die wir in unserer Auswahl eingegeben
+haben. Der Parameter "Werte aus Reihe" ist derjenige, der
+
+21
+
+00:02:27,810  -->  00:02:34,280
+eine Zeile in der Tabelle bildet; Die Spalteneingabe
+ist diejenige, die eine Spalte in der Tabelle
+
+22
+
+00:02:34,280  -->  00:02:42,050
+bildet. Für die Zeileneingabe wählen wir also C4
+– Zinssatz. Beachten Sie, dass dieser Parameter
+
+23
+
+00:02:42,050  -->  00:02:47,870
+in die Berechnung des zu zahlenden Betrags
+einbezogen ist. Für die Spalteneingabe
+
+24
+
+00:02:47,870  -->  00:02:55,330
+wählen wir C6 – den Zeitparameter. Es handelt
+sich um eine andere Zelle, die im Rahmen
+
+25
+
+00:02:55,330  -->  00:03:02,230
+der zu prüfenden Berechnung in Betracht gezogen wird. Klicken
+wir auf OK, nachdem wir die ursprünglichen Variablen
+
+26
+
+00:03:02,230  -->  00:03:09,319
+für die Zeilen-und Spaltenwerte unserer Datentabelle
+ausgewählt haben. Das Ergebnis, das wir erhalten, ist eine
+
+27
+
+00:03:09,319  -->  00:03:15,569
+schöne Tabelle mit vielen Werten. Diese Werte zeigen, wie
+sich die Änderung der beiden Parameter unserer Formel
+
+28
+
+00:03:15,569  -->  00:03:22,410
+auf das Ergebnis auswirken wird, was in unserem Fall der Betrag
+ist, der zurückgezahlt werden muss. Unsere ursprünglichen
+
+29
+
+00:03:22,410  -->  00:03:29,090
+Parameter liegen bei10 Prozent Zinsen und einer Rückzahlung
+in fünf Jahren. Wir können sehen, dass der Wert in
+
+30
+
+00:03:29,090  -->  00:03:35,590
+der Tabelle der gleiche ist wie der in unserer Formel. Die
+Tabelle enthält viele Werte. Jeder dieser Werte zeigt
+
+31
+
+00:03:35,590  -->  00:03:40,739
+den Betrag an, der für eine bestimmte
+Kombination von Zinssatz und Kreditzeitraum
+
+32
+
+00:03:40,739  -->  00:03:46,959
+zurückgezahlt werden muss. Wenn der Zinssatz zum Beispiel
+elf Prozent beträgt und das Unternehmen seine Schulden in
+
+33
+
+00:03:46,959  -->  00:03:54,690
+drei Jahren zurückzahlen müsste, hätte es 1368 RG geschuldet.
+Datentabellen sind sehr nützlich, wenn Sie mit Unsicherheiten
+
+34
+
+00:03:54,690  -->  00:04:01,409
+umgehen. Sie sind ein bevorzugtes Instrument für viele hochrangige
+Entscheidungsträger. Das Bewertungsmodell, das wir in
+
+35
+
+00:04:01,409  -->  00:04:06,400
+diesem Kurs sehen werden, enthält ein
+praktisches Beispiel für die Anwendung von
+
+36
+
+00:04:06,400  -->  00:04:09,569
+Datentabellen. Danke
+für das Aufpassen.

@@ -1,0 +1,127 @@
+1
+00:00:00,150 --> 00:00:01,810
+Hi and welcome back.
+
+2
+00:00:01,890 --> 00:00:06,290
+In this lesson we'll show you how to add text in formulas.
+
+3
+00:00:06,300 --> 00:00:12,570
+It's an important trick that will be very helpful a bit later in the course whenever you start creating
+
+4
+00:00:12,570 --> 00:00:17,230
+a function and you add this type of quotation mark to it.
+
+5
+00:00:17,310 --> 00:00:23,680
+Excel knows that what is included within the quotation marks should be read as text.
+
+6
+00:00:23,730 --> 00:00:26,620
+For example I'll type equal.
+
+7
+00:00:26,790 --> 00:00:34,420
+And then within quotation marks revenue let's press enter and see what happens.
+
+8
+00:00:34,680 --> 00:00:40,260
+Excel displays revenue as text perfect if that's clear.
+
+9
+00:00:40,260 --> 00:00:42,520
+Let's try something a bit different now.
+
+10
+00:00:42,720 --> 00:00:53,830
+I'll add a blank space in front of revenue within the function and as you see this has affected our
+
+11
+00:00:53,830 --> 00:00:54,760
+output.
+
+12
+00:00:54,760 --> 00:01:02,170
+The text revenue starts one character space to the right and we have a blank space in front of it.
+
+13
+00:01:02,170 --> 00:01:08,430
+This means that blank spaces are important especially in certain situations.
+
+14
+00:01:08,440 --> 00:01:18,750
+Okay great let's provide another useful example in these two columns we have data that should be united.
+
+15
+00:01:19,030 --> 00:01:22,180
+We have a country's name and its capital.
+
+16
+00:01:22,180 --> 00:01:32,730
+Let's put them together I can do that in the following way sell a 5 and sell B 5 press enter and here's
+
+17
+00:01:32,730 --> 00:01:34,590
+the output we obtained.
+
+18
+00:01:34,590 --> 00:01:37,710
+Doesn't look very good does it.
+
+19
+00:01:37,710 --> 00:01:39,720
+Most definitely not.
+
+20
+00:01:39,720 --> 00:01:47,270
+So to separate them I'll add a third arguments united to both cells with another Ampersand function.
+
+21
+00:01:47,490 --> 00:01:52,840
+It will only contain a comma with inverted brackets okay.
+
+22
+00:01:52,840 --> 00:01:53,810
+Very well.
+
+23
+00:01:53,890 --> 00:01:58,280
+Let's PRESENTER Now the situation has improved a little.
+
+24
+00:01:58,300 --> 00:02:04,720
+There is some separation between a country's name and its capital but we need to add a blank space in
+
+25
+00:02:04,720 --> 00:02:08,430
+front of the capital city to make this a bit better.
+
+26
+00:02:08,500 --> 00:02:15,280
+I'll add a third Ampersand sign and we'll simply include a blank space within brackets.
+
+27
+00:02:15,340 --> 00:02:19,930
+This creates my blank space in front of each capital city.
+
+28
+00:02:19,960 --> 00:02:22,430
+I believe this is what we were after.
+
+29
+00:02:22,480 --> 00:02:26,770
+So this is how we work with text in Excel.
+
+30
+00:02:26,770 --> 00:02:33,160
+A bit later in the course you will learn why this is very useful when creating dynamic functions but
+
+31
+00:02:33,160 --> 00:02:35,040
+you don't have to worry about that now.
+
+32
+00:02:35,110 --> 00:02:38,910
+You are making excellent progress already so enjoy that.

@@ -1,0 +1,101 @@
+1
+
+00:00:06,860  -->  00:00:12,900
+Hallo, in diesem Video erfahren wir mehr über
+die Funktionen Mittelwert und Mittelwertwenn.
+
+2
+
+00:00:12,900  -->  00:00:18,869
+Mittelwert ist eine Funktion, die das arithmetische
+Mittel einer Reihe von Zahlen berechnet.
+
+3
+
+00:00:18,869  -->  00:00:25,729
+Sie ist einfach zu bedienen: Wir müssen + MITTELWERT
+eingeben und die Zahlenpalette auswählen, für
+
+4
+
+00:00:25,729  -->  00:00:31,239
+die wir den Durchschnitt finden möchten. Berechnen wir
+die durchschnittliche Anzahl der gespielten Spiele,
+
+5
+
+00:00:31,239  -->  00:00:40,690
+, indem wir den Bereich von E4 bis E12 auswählen. Ich schließe
+die Formel und hier ist es. Die Teams spielten im Schnitt
+
+6
+
+00:00:40,690  -->  00:00:49,249
+36,66 Spiele. Mittelwertwenn ist, ganz intuitiv, eine
+Funktion, die den rechnerischen Mittelwert der Zahlen in
+
+7
+
+00:00:49,249  -->  00:00:55,909
+einem Array berechnet, wenn sie ein bestimmtes
+Kriterium erfüllen. In unserem Beispiel können
+
+8
+
+00:00:55,909  -->  00:01:01,160
+wir entscheiden, dass wir den Durchschnitt der
+Punkte berechnen möchten, die Mannschaften, die
+
+9
+
+00:01:01,160  -->  00:01:08,010
+an der Champions League teilgenommen haben,
+verdient haben. Die Formel hat drei Argumente: Das
+
+10
+
+00:01:08,010  -->  00:01:13,899
+erste ist der Bereich. Wir müssen den Bereich der
+Zellen auswählen, für die wir eine bestimmte
+
+11
+
+00:01:13,899  -->  00:01:19,540
+Bedingung testen möchten. In diesem Beispiel ist
+es die Spalte, die anzeigt, ob eine Mannschaft
+
+12
+
+00:01:19,540  -->  00:01:25,290
+an der Champions League teilgenommen hat. Das
+zweite Argument ist das Kriterium – in unserem
+
+13
+
+00:01:25,290  -->  00:01:31,810
+Fall ist es "Ja", da wir den Durchschnitt nur für die
+Mannschaften herausfinden wollen, die an der Champions
+
+14
+
+00:01:31,810  -->  00:01:37,860
+League teilgenommen haben. Das dritte Argument ist
+der Bereich der Zellen, für die wir den Durchschnitt
+
+15
+
+00:01:37,860  -->  00:01:46,859
+erhalten möchten, wenn die Bedingung erfüllt ist. Der
+Bereich liegt zwischen F4 und F12. Sobald wir diese
+
+16
+
+00:01:46,859  -->  00:01:52,310
+Argumente ausgewählt haben, ist unsere Formel
+fertig. Das Ergebnis, das wir erzielt haben, zeigt,
+
+17
+
+00:01:52,310  -->  00:01:57,529
+dass Mannschaften, die in der Champions League
+spielen, durchschnittlich 72 Punkte erzielt haben.

@@ -1,0 +1,221 @@
+1
+
+00:00:05,800  -->  00:00:11,680
+Hallo Leute. In diesem Video werden wir einige
+der Befehle sehen, die die Verwaltung von
+
+2
+
+00:00:11,680  -->  00:00:18,349
+Textinhalten in Excel ermöglichen. Diese Funktionen
+sind sehr nützlich, wenn wir große Mengen an Textdaten
+
+3
+
+00:00:18,349  -->  00:00:24,689
+innerhalb eines Arbeitsblattes ausarbeiten müssen und
+einige Jahre Arbeit sparen möchten. Im linken Teil unseres
+
+4
+
+00:00:24,689  -->  00:00:29,960
+Blattes haben wir ein langes deutsches Wort,
+das uns für die Übung gut dienen wird.
+
+5
+
+00:00:29,960  -->  00:00:37,179
+Beginnen wir mit der Funktion "Links." Es erlaubt
+Excel-Benutzern, eine bestimmte Anzahl von Zeichen zu
+
+6
+
+00:00:37,179  -->  00:00:43,039
+erhalten, die auf der linken Seite einer
+bestimmten Textfolge stehen. Wir tippen einfach
+
+7
+
+00:00:43,039  -->  00:00:49,359
++Links, wählen die Zelle aus, die Text enthält, und
+geben dann die Anzahl der Zeichen ein, die wir
+
+8
+
+00:00:49,359  -->  00:00:55,450
+erhalten möchten. Nehmen wir an, dass ich sechs
+Zeichen erhalten möchte, also tippe 6 als
+
+9
+
+00:00:55,450  -->  00:01:03,680
+zweites Argument. Und die Formel zeigt
+"Doppel" als Ergebnis an. Wenn wir den zweiten
+
+10
+
+00:01:03,680  -->  00:01:10,520
+Parameter auf drei ändern, wird "Dop" angezeigt.
+Die Formel "Rechts" funktioniert ähnlich, wobei
+
+11
+
+00:01:10,520  -->  00:01:15,700
+der einzige Unterschied darin besteht, dass sie
+die Zeichen am Ende einer Textfolge liefert.
+
+12
+
+00:01:15,700  -->  00:01:22,720
+Ein Beispiel. Wir müssen Rechts eingeben,
+die Zelle mit Text auswählen und
+
+13
+
+00:01:22,720  -->  00:01:29,200
+dann als zweites Argument die Anzahl der
+Zeichen eingeben. Wenn wir drei als zweites
+
+14
+
+00:01:29,200  -->  00:01:36,360
+Argument auswählen, erhalten wir als Ergebnis
+die letzten drei Zeichen des Wortes: "Bbe".
+
+15
+
+00:01:36,360  -->  00:01:42,950
+Teil ist die dritte Formel, die wir in diesem Video
+sehen. Die Links Funktion ähnelt der Teil Formel.
+
+16
+
+00:01:42,950  -->  00:01:47,760
+Der Hauptunterschied ist jedoch, dass der Benutzer
+entscheiden kann, von welchem Zeichen des
+
+17
+
+00:01:47,760  -->  00:01:54,729
+Wortes aus er starten möchte. Ich werde Teil
+tippen und die Textzelle als erstes Argument
+
+18
+
+00:01:54,729  -->  00:02:01,900
+auswählen. Das zweite Argument fragt uns, wo
+wir anfangen sollen. Es muss eine Nummer sein.
+
+19
+
+00:02:01,900  -->  00:02:08,220
+Eins entspricht dem ersten Buchstaben im
+Wort. Beginnen wir vom vierten Zeichen. Als
+
+20
+
+00:02:08,220  -->  00:02:13,670
+letztes Argument der Funktion müssen wir
+auswählen, wie viele Zeichen wir erhalten möchten.
+
+21
+
+00:02:13,670  -->  00:02:21,830
+Nehmen wir an, in unserem Fall hätten wir gerne
+sieben Zeichen. Und hier ist unser Ergebnis: Wir
+
+22
+
+00:02:21,830  -->  00:02:27,720
+haben sieben Zeichen erhalten, beginnend mit dem
+vierten Buchstaben des Wortes. Falls Sie eventuell
+
+23
+
+00:02:27,720  -->  00:02:33,640
+Groß-oder Kleinbuchstaben konvertieren müssen,
+profitieren Sie davon, Gross, Klein und Gross2
+
+24
+
+00:02:33,640  -->  00:02:39,550
+kennen zu lernen. Die Funktion
+Gross wandelt eine Zeichenkette in
+
+25
+
+00:02:39,550  -->  00:02:46,450
+ausschließlich Großbuchstaben um. Wir müssen nur Gross
+eintippen und die Zelle auswählen ... Sehen Sie? Ziemlich
+
+26
+
+00:02:46,450  -->  00:02:52,510
+einfach. Die Funktion Klein hingegen wandelt den
+Text in ausschließlich Kleinbuchstaben um. Wenn
+
+27
+
+00:02:52,510  -->  00:02:59,040
+ich Klein tippe und die Zelle B4 wähle, wird
+die Textzeile in Kleinbuchstaben umgewandelt.
+
+28
+
+00:02:59,040  -->  00:03:05,830
+Es ist genauso einfach anzuwenden. Die
+nächste Funktion, die wir einführen werden,
+
+29
+
+00:03:05,830  -->  00:03:12,390
+ist Gross2. Seine Anwendung ist genau die
+gleiche wie die von Gross und Klein. Seine
+
+30
+
+00:03:12,390  -->  00:03:18,100
+Ausgabe ist einen großen Anfangsbuchstaben und den
+der Rest der Buchstaben klein zu konvertieren.
+
+31
+
+00:03:18,100  -->  00:03:24,320
+Nun geht es weiter mit der Anwendung
+der Funktionen "UND" und "VERKETTEN".
+
+32
+
+00:03:24,320  -->  00:03:30,620
+Sie dienen den gleichen Zwecken und deshalb werden
+wir sie zusammen betrachten. Geben wir = ein,
+
+33
+
+00:03:30,620  -->  00:03:40,880
+wählen die Zelle B4, tippen das "UND"-Zeichen ein
+und wählen C4. Das Ergebnis ist, dass die beiden
+
+34
+
+00:03:40,880  -->  00:03:49,760
+Textzeilen in derselben Zelle kombiniert werden.
+Wir können auch D4 hinzufügen, wenn wir wollen.
+
+35
+
+00:03:49,760  -->  00:03:56,850
+Führen Sie einfach die Formel fort, indem Sie "UND"
+eingeben und D4 auswählen. Was wäre, wenn wir zwischen
+
+36
+
+00:03:56,850  -->  00:04:03,700
+jedem von ihnen einen leeren Raum hinterlassen
+wollten? Wir müssen Anführungszeichen
+
+37
+
+00:04:03,700  -->  00:04:28,920
+eingeben und ein Leerzeichen darin lassen.
+Ziemlich intuitiv.

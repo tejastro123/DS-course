@@ -1,0 +1,74 @@
+0
+1
+00:00:01,150 --> 00:00:02,240
+Welcome back.
+1
+
+2
+00:00:02,440 --> 00:00:08,560
+In this video we will learn more about the freeze panes functionality of Exel.
+2
+
+3
+00:00:08,560 --> 00:00:15,400
+Whenever you have to deal with a table or data which goes out of the visible part of the screen it is
+3
+
+4
+00:00:15,400 --> 00:00:22,960
+advisable to use freeze panes as it allows you to see the title of the table even if you're scrolling
+4
+
+5
+00:00:22,960 --> 00:00:30,190
+down in order to freeze the third row of this table where I have the titles of the various columns.
+5
+
+6
+00:00:30,190 --> 00:00:33,220
+I'll select the row below the fourth row.
+6
+
+7
+00:00:33,400 --> 00:00:37,150
+Go to the menu bar and select View.
+7
+
+8
+00:00:37,430 --> 00:00:42,260
+Freeze panes and once there I'll pick the first option.
+8
+
+9
+00:00:42,340 --> 00:00:44,190
+Freeze panes.
+9
+
+10
+00:00:44,200 --> 00:00:46,320
+Let's take a look at what happened.
+10
+
+11
+00:00:46,570 --> 00:00:54,460
+If I scroll down the data the third row remains visible and we can see our titles in case I want to
+11
+
+12
+00:00:54,460 --> 00:00:56,830
+remove the freezing of the third row.
+12
+
+13
+00:00:56,830 --> 00:01:05,490
+I'll go to the menu bar select View go to freeze panes and click on unfreeze panes.
+13
+
+14
+00:01:05,500 --> 00:01:10,640
+This is how we can freeze a row or column of a table in Excel.
+14
+
+15
+00:01:10,960 --> 00:01:11,910
+Thanks for watching.

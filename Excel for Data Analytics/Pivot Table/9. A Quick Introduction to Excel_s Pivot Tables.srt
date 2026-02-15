@@ -1,0 +1,124 @@
+1
+
+00:00:05,700  -->  00:00:13,920
+Hello and welcome back in this video we'll see an introduction to pivot tables excels dynamic and interactive
+
+2
+
+00:00:13,920  -->  00:00:15,050
+tables.
+
+3
+
+00:00:15,630  -->  00:00:22,970
+The data that you see on this sheet includes 15000 rows and could be hard to elaborate.
+
+4
+
+00:00:23,010  -->  00:00:29,200
+Pivot Tables are a great way to simplify the work with large quantities of data.
+
+5
+
+00:00:29,220  -->  00:00:34,760
+Let's select the whole table including its titles and go to the menu bar.
+
+6
+
+00:00:34,950  -->  00:00:43,140
+Once we are there we need to select the insert bar and click on Pivot Table in this dialog box.
+
+7
+
+00:00:43,140  -->  00:00:48,050
+We have to confirm that we want to create a pivot table for our current selection.
+
+8
+
+00:00:48,210  -->  00:00:50,090
+We will click OK.
+
+9
+
+00:00:50,520  -->  00:00:55,170
+A new sheet opens and our pivot table is ready to be created.
+
+10
+
+00:00:55,200  -->  00:01:00,220
+First we have to select which is the field that we would like to analyze in our table.
+
+11
+
+00:01:00,600  -->  00:01:07,740
+Let's say that we are interested in seeing more about volumes we have to drag the volume field to the
+
+12
+
+00:01:07,740  -->  00:01:11,690
+bottom of the menu where values is written.
+
+13
+
+00:01:11,730  -->  00:01:16,590
+Now you can see that the table displays count of volume.
+
+14
+
+00:01:16,890  -->  00:01:21,070
+It actually counts the cells in which there is a number.
+
+15
+
+00:01:21,150  -->  00:01:25,560
+What we want to see are the total volumes of the business.
+
+16
+
+00:01:25,560  -->  00:01:34,800
+We have to add the cells together not count them therefore we will click volume and go to value field
+
+17
+
+00:01:34,800  -->  00:01:39,550
+settings where we can choose what type of action is to be carried out.
+
+18
+
+00:01:39,870  -->  00:01:46,380
+Here we will select some let's add a few rows and columns to the table.
+
+19
+
+00:01:46,560  -->  00:01:51,020
+I'll drag year to the column box in the following way.
+
+20
+
+00:01:51,240  -->  00:01:57,330
+The table was immediately populated with the volume of sales per each year.
+
+21
+
+00:01:57,330  -->  00:02:04,800
+Now let's drag the product group field to the Row box and the result is a nice table displaying the
+
+22
+
+00:02:04,800  -->  00:02:09,120
+product group breakdown of volumes per each year.
+
+23
+
+00:02:09,120  -->  00:02:14,520
+There are some additional subtleties in the work with Pivot Tables but I believe that this video will
+
+24
+
+00:02:14,520  -->  00:02:15,770
+do for a start.
+
+25
+
+00:02:16,020  -->  00:02:16,980
+Thanks for watching

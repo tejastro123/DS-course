@@ -1,0 +1,119 @@
+1
+
+00:00:05,960  -->  00:00:12,820
+Hallo, in diesem Video werden wir "Wahl" – eine
+schöne Funktion in Excel kennenlernen. "Wahl"
+
+2
+
+00:00:12,820  -->  00:00:19,050
+ist ein großartiges Werkzeug für die Finanzmodellierung.
+Es ermöglicht Excel-Nutzern, verschiedene Szenarien
+
+3
+
+00:00:19,050  -->  00:00:23,800
+u erstellen, was im Umgang mit einer unsicheren
+Umgebung und dem Aufbau eines dynamischen Modells
+
+4
+
+00:00:23,800  -->  00:00:31,289
+entscheidend sein kann. Die Formel funktioniert in folgender
+Weise. Wir müssen eine Indexnummer als erstes Argument auswählen.
+
+5
+
+00:00:31,289  -->  00:00:38,000
+Die "Index"-Zelle ist wichtig, da sie es uns
+ermöglicht, aus einer Reihe von Werten zu wählen. Die
+
+6
+
+00:00:38,000  -->  00:00:43,289
+anderen Argumente der Formel sind die tatsächlichen
+Werte, aus denen wir anhand der Indexnummer
+
+7
+
+00:00:43,289  -->  00:00:49,440
+auswählen. Mal sehen, wie die praktische Umsetzung
+funktioniert. Wir haben eine Tabelle mit drei Szenarien,
+
+8
+
+00:00:49,440  -->  00:00:55,500
+die die Entwicklung von Einnahmen in einer Firma
+betreffen. Es gebe einen "optimistischen Fall", einen
+
+9
+
+00:00:55,500  -->  00:01:04,600
+"Basisfall" und einen "Worst Case". Geben wir die Formel
+"Wahl" in C4 ein. Ihr erstes Argument, der Index,
+
+10
+
+00:01:04,600  -->  00:01:12,280
+wird die Zelle I4 sein, die derzeit gleich
+1 ist. Die drei Werte, aus denen die
+
+11
+
+00:01:12,280  -->  00:01:22,299
+Formel ausgewählt wird, sind C7,C8 bzw. C9.
+OK, also sind wir im "Optimistischen Fall"
+
+12
+
+00:01:22,299  -->  00:01:31,159
+für 2011. Wenn wir den Wert in der Zelle I4 auf
+2 ändern, wird der "Basisfall" ausgewählt. Wenn
+
+13
+
+00:01:31,159  -->  00:01:38,369
+wir es in 3 ändern, wird der "Worst
+Case" ausgewählt. Ziemlich nett,
+
+14
+
+00:01:38,369  -->  00:01:44,750
+oder? Lassen Sie uns die Formel für die anderen Jahre
+kopieren. Bitte beachten Sie, dass die Indexnummer fest und
+
+15
+
+00:01:44,750  -->  00:01:52,090
+für alle Jahre gleich ist. Die Formel "Wählen" erlaubt
+es uns, die Umsatzzahlen für alle vier Jahre zeitgleich
+
+16
+
+00:01:52,090  -->  00:01:59,330
+zu ändern. Durch die Änderung der Indexnummer kann
+ich eine bestimmte Reihe von Zellen auswählen.
+
+17
+
+00:01:59,330  -->  00:02:05,460
+Bitte beachten Sie, dass die Indexnummer
+eine numerischen Wert haben muss und
+
+18
+
+00:02:05,460  -->  00:02:13,930
+dass der Bereich ihrer möglichen Werte bei 1 beginnt
+und bis 254 geht. Im Bewertungsmodell, das ein Teil
+
+19
+
+00:02:13,930  -->  00:02:18,960
+dieses Kurses ist, können Sie ein praktisches
+Beispiel dafür sehen, wie "Wahl" angewendet
+
+20
+
+00:02:18,960  -->  00:02:23,030
+angewendet werden kann, um Szenarien
+innerhalb eines Finanzmodells auszutüfteln.

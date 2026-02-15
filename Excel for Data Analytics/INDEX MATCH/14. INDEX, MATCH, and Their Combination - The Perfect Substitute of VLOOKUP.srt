@@ -1,0 +1,365 @@
+1
+
+00:00:03,080  -->  00:00:09,690
+In diesem Auszug werden wir zwei interessante
+Excel-Funktionen sehen: "Index" und "Vergleich."
+
+2
+
+00:00:09,690  -->  00:00:15,650
+Wir werden sie im selben Video zeigen, weil sie oft
+zusammen angewendet werden. Ihre Kombination bietet
+
+3
+
+00:00:15,650  -->  00:00:21,580
+eine interessante Alternative zu "Sverweis". Schauen
+wir uns die Anwendung der beiden Funktionen
+
+4
+
+00:00:21,580  -->  00:00:28,710
+separat an und kombinieren wir sie dann. "Index"
+ist eine Formel, die den Wert zurückgibt, der
+
+5
+
+00:00:28,710  -->  00:00:35,110
+sich an einer bestimmten Kreuzung innerhalb eines Arrays
+befindet. Im Grunde braucht also die "Index"-Formel
+
+6
+
+00:00:35,110  -->  00:00:44,400
+uns, um das Follow-up anzuzeigen: 1) Ein Array, in dem es
+funktioniert 2) Eine Zeilennummer 3) Eine Spaltennummer, die
+
+7
+
+00:00:44,400  -->  00:00:51,549
+die Formel nutzt und die angegebene Zeile und die
+angegebene Spalte innerhalb des Arrays findet und
+
+8
+
+00:00:51,549  -->  00:01:01,700
+und ihren Inhalt liefert. Wenn wir zum Beispiel das
+Array von B4 bis C12 in unserer Tabelle auswählen und
+
+9
+
+00:01:01,700  -->  00:01:11,720
+5 als Zeilenargument und 2 als Spaltenargument
+auswählen, erhalten wir als Ergebnis "Italien".
+
+10
+
+00:01:11,720  -->  00:01:17,790
+Die "Index"-Funktion liefert einfach die Zelle,
+die die von uns gewählten Koordinaten hat.
+
+11
+
+00:01:17,790  -->  00:01:25,290
+In der fünften Reihe und der zweiten Spalte des
+Bereichs, die wir ausgewählt haben, liegt "Italien".
+
+12
+
+00:01:25,290  -->  00:01:32,540
+Richtig? Wir haben diese Koordinaten angegeben und Index hat
+uns das Ergebnis geliefert. Versuchen wir es noch einmal.
+
+13
+
+00:01:32,540  -->  00:01:40,390
+Ich wähle den gleichen Bereich – von B4 bis C12.
+Dieses Mal wählen wir 1 als Zeilenargument und wieder
+
+14
+
+00:01:40,390  -->  00:01:48,770
+1 als Spaltenargument. Das Ergebnis ist "Borussia", zumal
+der Wert in der ersten Reihe und ersten Spalte des
+
+15
+
+00:01:48,770  -->  00:01:56,080
+ausgewählten Bereichs "Borussia" ist. Die
+nächste Funktion, die wir in diesem Video sehen
+
+16
+
+00:01:56,080  -->  00:02:03,770
+werden, ist "Vergleich". "Vergleich" gibt die
+relative Position eines Gegenstandes innerhalb
+
+17
+
+00:02:03,770  -->  00:02:12,260
+eines Arrays zurück. Lassen Sie uns das an einem Beispiel
+veranschaulichen. Ich tippe die "Vergleich"-Funktion.
+
+18
+
+00:02:12,260  -->  00:02:17,870
+Das erste Argument, das ausgewählt werden muss, ist der
+Suchwert – in unserem Beispiel, das "Mailand" sein
+
+19
+
+00:02:17,870  -->  00:02:25,980
+wird, das in B19 liegt. Danach müssen wir festlegen,
+welches Array die Position des Lookup-Wertes
+
+20
+
+00:02:25,980  -->  00:02:32,170
+finden muss. Wählen wir alle
+Teams aus, die im Bereich von
+
+21
+
+00:02:32,170  -->  00:02:39,880
+B4 bis B12 liegen. Das dritte Argument ist ein logischer
+Wert – "0" oder "1", der für "eine exakte Übereinstimmung"
+
+22
+
+00:02:39,880  -->  00:02:50,800
+und " große Übereinstimmung" steht. Ich wähle 0 aus, da wir
+eine exakte Übereinstimmung benötigen. Unsere Formel ist
+
+23
+
+00:02:50,800  -->  00:02:58,480
+fertig. Die Ausgabe der Funktion ist "2", die die
+Position Mailands innerhalb des ausgewählten
+
+24
+
+00:02:58,480  -->  00:03:06,709
+Arrays darstellt. Es ist wichtig zu beachten, dass die Formel
+auch vertikal angewendet werden kann. Wenn wir zum Beispiel
+
+25
+
+00:03:06,709  -->  00:03:18,180
+die Anzahl der Spiele, die innerhalb des Arrays von B3
+bis F3 gespielt werden, betrachten, wird das Ergebnis
+
+26
+
+00:03:18,180  -->  00:03:26,190
+vier sein, was richtig ist, da "Spiele gespielt" die
+vierte Spalte innerhalb des Arrays ist. Betrachten wir
+
+27
+
+00:03:26,190  -->  00:03:32,170
+die Kombination von "Index" und "Vergleich"
+zusammen. Dies ist ein ziemlich leistungsfähiges
+
+28
+
+00:03:32,170  -->  00:03:39,610
+Tool, das oft als dem "Sverweis" überlegen angesehen wird,
+da es dem Benutzer erlaubt, einen flexiblen Lookup-Wert
+
+29
+
+00:03:39,610  -->  00:03:46,380
+innerhalb der Quelltabelle zu haben. Es ist intuitiv,
+"Index" und "Vergleich" zu kombinieren. Die erste
+
+30
+
+00:03:46,380  -->  00:03:53,180
+Formel benötigt als Input Positionen innerhalb
+eines Bereichs, und die zweite Formel bietet das.
+
+31
+
+00:03:53,180  -->  00:03:59,760
+Mal sehen, wie die beiden Funktionen in der Praxis gemeinsam
+angewendet werden. Wir haben eine ähnliche Aufgabe
+
+32
+
+00:03:59,760  -->  00:04:05,410
+wie die vorherige. Zwei Tabellen. Die linke ist
+unsere Quelltabelle, und die auf der rechten
+
+33
+
+00:04:05,410  -->  00:04:12,060
+Seite muss befüllt werden. Machen wir die Übung
+in zwei Schritten. Zuerst werden wir die
+
+34
+
+00:04:12,060  -->  00:04:20,840
+Vergleich-Formel auf jede der leeren Zellen in der Tabelle
+auf der rechten Seite anwenden. Also, wir haben + Vergleich,
+
+35
+
+00:04:20,840  -->  00:04:27,729
+und der Lookup-Wert ist Mailand in der Zelle I4. Lassen
+Sie uns die Spaltenreferenz festlegen, da dies der
+
+36
+
+00:04:27,729  -->  00:04:37,009
+Lookup-Wert unserer Tabelle sein wird. OK, wählen
+wir als Lookup die Zellen von B4 bis B12 aus und
+
+37
+
+00:04:37,009  -->  00:04:45,289
+fixieren sie. Wir sind auf der Suche nach einem exakten
+Match und ich werde 0 als drittes Argument der Formel
+
+38
+
+00:04:45,289  -->  00:04:52,720
+eingeben. Lassen Sie uns die Formel auch in die Zeile
+unten kopieren. Das Ergebnis, das wir erzielt haben,
+
+39
+
+00:04:52,720  -->  00:04:58,620
+ist, dass Mailand auf der zweiten Position liegt
+und Hamburg auf der vierten Position innerhalb des
+
+40
+
+00:04:58,620  -->  00:05:05,009
+ausgewählten Arrays, und das ist richtig. Nun kopieren
+wir die beiden Formeln für den Rest der leeren
+
+41
+
+00:05:05,009  -->  00:05:13,699
+Zellen. Okay. Was wir hier haben, ist die Position
+des Lookup-Wertes innerhalb der Quelltabelle.
+
+42
+
+00:05:13,699  -->  00:05:21,339
+Es macht nicht viel Arbeit ... Aber
+nur vorerst. Geben wir "Index" vor die
+
+43
+
+00:05:21,339  -->  00:05:28,830
+"Vergleich"-Funktion ein und fügen eine linke Klammer
+hinzu. "Index" benötigt ein Array als erstes Argument.
+
+44
+
+00:05:28,830  -->  00:05:35,210
+Das Array ist der Bereich der Zellen, unter
+denen die Ausgabe der "Index"-Formel ausgewählt
+
+45
+
+00:05:35,210  -->  00:05:46,860
+wird. Wählen wir die Zellen von C4 bis
+C12 aus und fixieren ihre Datensätze.
+
+46
+
+00:05:46,860  -->  00:05:55,710
+Dann können wir die Klammern schließen. Das Ergebnis,
+das wir erzielt haben, ist "Italien." Lassen Sie uns
+
+47
+
+00:05:55,710  -->  00:06:02,940
+noch einmal wiederholen, wie die beiden Funktionen zusammenarbeiten.
+Die "Index"-Formel benötigt als Eingabe die Anzahl der Zeilen
+
+48
+
+00:06:02,940  -->  00:06:09,860
+innerhalb eines Bereichs. Richtig? Und wir hatten die Nummer
+gefunden, die wir gesucht hatten, dank der "Vergleich"-Funktion.
+
+49
+
+00:06:09,860  -->  00:06:16,770
+Mit anderen Worten: Die "Vergleich"-Funktion zeigt die
+Position des Ergebnisses an und die "Index"-Funktion
+
+50
+
+00:06:16,770  -->  00:06:23,449
+extrahiert es. Denken Sie daran, dass das erste
+Argument der "Index"-Funktion das Array der Quelle
+
+51
+
+00:06:23,449  -->  00:06:28,629
+st, aus der wir das Ergebnis extrahieren wollen. Das zweite
+Argument der "Index"-Funktion ist die "Vergleich"-Funktion, die
+
+52
+
+00:06:28,629  -->  00:06:33,500
+die exakten Daten findet, die wir suchen.
+Wir können die
+
+53
+
+00:06:33,500  -->  00:06:34,699
+Formel nach unten und nach rechts kopieren, weil
+ihre Argumente richtig fixiert sind. Nun möchte
+
+54
+
+00:06:34,699  -->  00:06:41,379
+ich Ihnen ein Beispiel dafür zeigen, wann "Index,
+Vergleich" "Sverweis" überlegen ist. Schneiden
+
+55
+
+00:06:41,379  -->  00:06:49,740
+wir die Werte unter der Spalte "Team" in der
+Quelltabelle aus und fügen wir sie in Spalte G ein.
+
+56
+
+00:06:49,740  -->  00:06:57,249
+Die Tabelle rechts ändert sich nicht. Das liegt daran,
+dass die Kombination aus "Index" und "Vergleich"
+
+57
+
+00:06:57,249  -->  00:07:04,249
+funktioniert, auch wenn der Lookup-Wert rechts
+ist. Hätten wir "Sverweis" benutzt und dies getan,
+
+58
+
+00:07:04,249  -->  00:07:11,449
+hätten wir eine sofortige N/A Fehlermeldung
+gesehen. Die Kombination aus "Index" und
+
+59
+
+00:07:11,449  -->  00:07:16,819
+"Vergleich" ist ideal für Situationen, in denen
+Sie ein originelles Quellblatt haben und nichts
+
+60
+
+00:07:16,819  -->  00:07:23,300
+daran ändern wollen und Ihr Suchwert auf der rechten
+Seite ist. Wir hoffen, dass dieses Video für
+
+61
+
+00:07:23,300  -->  00:07:26,539
+Sie nützlich war.
+Danke fürs Zuschauen.

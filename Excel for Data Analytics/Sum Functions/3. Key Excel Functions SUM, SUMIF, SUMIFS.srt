@@ -1,0 +1,185 @@
+0
+1
+00:00:05,240 --> 00:00:13,519
+Hallo, in diesem Video werden wir die Excel
+Summen Formeln Summe, Summewenn und Summewenns vorstellen. Sie erlauben es uns, die Zahlen innerhalb eines bestimmten Zellbereichs zu addieren. Sie erlauben es uns, die Zahlen innerhalb eines bestimmten Zellbereichs zu addieren
+1
+
+2
+00:00:13,519 --> 00:00:20,380
+Fangen wir mit Summe an. Es ist eine der grundlegenden Formeln von Excel. 
+2
+
+3
+00:00:20,380 --> 00:00:27,999
+Sum͟me erlaubt es Excel-Benutzern, die Zahlen innerhalb eines bestimmten innerhalb eines bestimmten Zellbereichs zu addieren. Ganz einfach. 
+3
+
+4
+00:00:27,999 --> 00:00:34,559
+In der Tabelle links liegen Daten über die Leistungen einiger Fußballmannschaften im vergangenen Jahr. 
+4
+
+5
+00:00:34,559 --> 00:00:39,899
+Um die Gesamtzahl der Spiele, die von den Teams gespielt wurden,  zusammenzufassen, werden wir + SUMME eintippen, 
+5
+
+6
+00:00:39,899 --> 00:00:49,820
+den Bereich von E4 bis E12 auswählen, die Klammern schließen und Excel berechnet die Anzahl der gespielten Spiele.
+6
+
+7
+00:00:49,820 --> 00:00:56,839
+Die Mannschaften spielten insgesamt 330 Spiele.
+7
+
+8
+00:00:56,839 --> 00:01:05,530
+Was ist, wenn wir nur die Zellen in einem Bereich
+hinzufügen müssen, die ein Kriterium erfüllen? Die Summewenn Funktion erlaubt uns das.
+8
+
+9
+00:01:05,530 --> 00:01:13,140
+In unserem Beispiel mit Fußballmannschaften; sagen wir mal, dass wir die Anzahl der Spiele, die von italienischen
+Mannschaften gespielt wurden, zusammenfassen möchten. 
+9
+
+10
+00:01:13,140 --> 00:01:19,770
+Wir müssen den Befehl Summewenn tippen. OK, jetzt hat die Formel drei Argumente, 
+10
+
+11
+00:01:19,770 --> 00:01:28,100
+wie Sie hier in der Formel Bar sehen können. Zuerst müssen wir die Palette der Zellen einführen,
+11
+
+12
+00:01:28,100 --> 00:01:34,829
+in denen Excel nachsehen wird, um die Kriterien zu finden. 
+12
+
+13
+00:01:34,829 --> 00:01:42,070
+Ich wähle die Zellen von C4 bis C12 aus, da hier die Herkunft des Landes in der Tabelle steht. 
+13
+
+14
+00:01:42,070 --> 00:01:49,990
+Dann wählen wir unsere
+Kriterien aus. Unser Kriterium wird Italy sein und das habe ich hier in C18.
+14
+
+15
+00:01:49,990 --> 00:01:58,590
+Ich werde es auswählen. Excel
+wird herausfinden, in welche Zellen im Bereich von C4 bis C12 Italy geschrieben ist. 
+15
+
+16
+00:01:58,590 --> 00:02:05,770
+Sobald dies der Fall ist, wird das Programm bereit sein, die Zellen zusammenzufügen, die wir bei Erfüllung
+16
+
+17
+00:02:05,770 --> 00:02:11,760
+des Kriteriums zusammengefasst haben wollen. Lassen Sie uns die Anzahl der gespielten Spiele zusammenfassen,  
+17
+
+18
+00:02:11,760 --> 00:02:19,410
+indem wir als drittes Argument die Zellen im Bereich E4:E12 auswählen. 
+18
+
+19
+00:02:19,410 --> 00:02:29,471
+Jetzt, da die Funktion abgeschlossen ist, können wir die Klammern schließen. Die Antwort, die wir erhalten, ist, dass italienische Teams insgesamt 114 Spiele gespielt haben. 
+19
+
+20
+00:02:29,471 --> 00:02:37,720
+Mit der Formel Summewenns wird es wirklich interessant. Es ist ein wirklich mächtiges Werkzeug.
+20
+
+21
+00:02:37,720 --> 00:02:44,960
+Im Grunde ist die Summewenns Funktion ähnlich zu Summewenn, obwohl es in der Lage ist, mit mehr als einer Bedingung zu arbeiten. 
+21
+
+22
+00:02:44,960 --> 00:02:51,201
+Nehmen wir an, wir möchten herausfinden, wie viele Punkte englische Teams, 
+22
+
+23
+00:02:51,201 --> 00:02:56,200
+die an der Champions League teilgenommen haben, verdient haben. Unsere erste Bedingung ist England,
+23
+
+24
+00:02:56,200 --> 00:03:04,370
+und die zweite ist "Ja" unter Champions-League-Präsenzen. Bei der Arbeit mit Summewenns ist es wichtig zu beachten, 
+24
+
+25
+00:03:04,370 --> 00:03:10,990
+welche Bedingungen angewendet werden müssen, und wo diese Bedingungen enthalten sind. 
+25
+
+26
+00:03:10,990 --> 00:03:16,761
+Geben wir die Formel ein. Bitte beachten Sie, dass Summewenns im Gegensatz 
+26
+
+27
+00:03:16,761 --> 00:03:23,900
+zu Summewenn mit dem Summemenbereich – den zu Summierenden Zellen beginnt.
+27
+
+28
+00:03:23,900 --> 00:03:30,260
+Wir werden die gesamte Palette der verdienten Punkte auswählen, beginnend bei F4 bis F12. 
+28
+
+29
+00:03:30,260 --> 00:03:37,840
+Danach müssen wir den Bereich für die erste Bedingung – Country auswählen und dann die erste Bedingung auswählen, wie wir sie in C16 haben
+29
+
+30
+00:03:37,840 --> 00:03:46,201
+- England. Dann können wir mit der Auswahl der Reichweite der zweiten Bedingung - Champions League weitermachen,
+30
+
+31
+00:03:46,201 --> 00:03:51,250
+und unser Kriterium wird "Ja" sein, wie in
+D16. 
+31
+
+32
+00:03:51,250 --> 00:04:00,370
+Das Ergebnis der Berechnung ist, dass die englischen Teams in unserer Tabelle,  die in der Champions League gespielt haben,
+32
+
+33
+00:04:00,370 --> 00:04:06,040
+eine Gesamtsumme von 143 Punkten verdient haben. 
+33
+
+34
+00:04:06,040 --> 00:04:13,590
+Das sind drei sehr nützliche Excel-Funktionen. Sie finden in den Fallstudien, die wir später in diesem Kurs sehen werden, 
+34
+
+35
+00:04:13,590 --> 00:04:18,759
+interessante und praktische Beispiele für die Anwendung der Sum͟me Formeln.
+35
+
+36
+00:04:18,759 --> 00:04:23,979
+Danke für das Aufpassen!

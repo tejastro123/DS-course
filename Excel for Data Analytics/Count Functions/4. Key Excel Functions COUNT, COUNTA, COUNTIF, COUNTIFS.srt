@@ -1,0 +1,197 @@
+1
+
+00:00:06,700  -->  00:00:14,680
+Hallo. In diesem Video werden wir Excels Zähl-Funktionen
+untersuchen: Anzahl, Anzahl2, Zählenwenn und
+
+2
+
+00:00:14,690  -->  00:00:22,579
+Zählenwenns. Im Wesentlichen zählen sie die Zellen
+innerhalb eines bestimmten Bereichs, die Zahlen oder
+
+3
+
+00:00:22,579  -->  00:00:30,649
+Text enthalten oder eine bestimmte Bedingung
+erfüllen. Beginnen wir mit Anzahl. Sie ist
+
+4
+
+00:00:30,649  -->  00:00:36,010
+eine ziemlich einfache Funktion, was sie tut, sie
+zählt die Zellen in einem Bereich, die Zahlen
+
+5
+
+00:00:36,010  -->  00:00:43,399
+enthalten. Es zählt keine leeren Zellen
+und Zellen, die Text enthalten. Nehmen wir
+
+6
+
+00:00:43,399  -->  00:00:48,280
+zum Beispiel an, dass wir gerne zählen möchten,
+wie viele Zellen unter dem Titel Games Played
+
+7
+
+00:00:48,280  -->  00:00:58,469
+stehen. Wir tippen + Anzahl und wählen den
+Zellbereich E4:E12. Wir können die Formel schließen,
+
+8
+
+00:00:58,469  -->  00:01:04,550
+da dies das einzige Argument ist, das benötigt wird,
+und das Ergebnis ist, dass es neun Zellen gibt,
+
+9
+
+00:01:04,550  -->  00:01:11,990
+die Zahlen innerhalb des ausgewählten Bereichs
+enthalten. Dies ist die Ausgabe der Anzahl-Funktion.
+
+10
+
+00:01:11,990  -->  00:01:19,520
+Eine Variante der Funktion ist Anzahl2, die nicht-leere
+Zellen zählt. Daher zählt er sowohl Zahlen
+
+11
+
+00:01:19,520  -->  00:01:28,689
+als auch Text. Zählen wir die Zellen von B4
+bis B12 mit Anzahl2. Ich tippe Anzahl2 ein
+
+12
+
+00:01:28,689  -->  00:01:36,119
+und wähle den Bereich aus. Das sind Textzellen,
+die nicht mit Anzahl gezählt worden
+
+13
+
+00:01:36,119  -->  00:01:44,619
+wären. Anzahl2 dagegen tut das
+und sagt uns, dass es neun sind.
+
+14
+
+00:01:44,619  -->  00:01:50,210
+Wenn wir die Zellen in einem Bereich zählen müssen,
+der eine oder mehrere Bedingungen erfüllt,
+
+15
+
+00:01:50,210  -->  00:01:57,350
+können wir die Funktionen Zählenwenn und Zählenwenns nutzen.
+Zählen wir, wie viele der Teams in unserer Tabelle mehr
+
+16
+
+00:01:57,350  -->  00:02:06,509
+als 60 Punkte verdient haben. Ich tippe Zählenwenn ein, wähle
+dann den zu zählenden Bereich aus, und danach den Zustand,
+
+17
+
+00:02:06,509  -->  00:02:13,050
+, der erfüllt werden muss, um die Zellen zu
+zählen – in unserem Fall muss ihr Wert höher
+
+18
+
+00:02:13,050  -->  00:02:20,600
+höher als 60 sein. Bitte beachten Sie, dass ich
+eine Bedingung als harte Zahl eingeben kann,
+
+19
+
+00:02:20,600  -->  00:02:28,880
+– tippen Sie Anführungszeichen, größer als
+und die Zahl. Sobald wir fertig sind, können
+
+20
+
+00:02:28,880  -->  00:02:36,390
+wir Enter drücken und sehen, dass sechs der
+neun Teams mehr als 60 Punkte verdient haben.
+
+21
+
+00:02:36,390  -->  00:02:43,080
+Mit der Zählenwenns-Funktion können wir
+mehrere Bedingungen einführen. Gehen wir zu
+
+22
+
+00:02:43,080  -->  00:02:49,110
+unserem Beispiel und zählen wir, wie viele der Teams
+in der Tabelle mehr als 60 Punkte verdienten und
+
+23
+
+00:02:49,110  -->  00:02:55,530
+gleichzeitig an der Champions League teilgenommen
+haben. Ich werde die Formel tippen und dann
+
+24
+
+00:02:55,530  -->  00:03:01,810
+ihr erstes Argument wählen: Die Reichweite der ersten
+Bedingung, das ist die Spalte, die anzeigt, ob
+
+25
+
+00:03:01,810  -->  00:03:08,020
+ein Team an der Champions League teilgenommen hat
+oder nicht. Das zweite Argument ist die Bedingung,
+
+26
+
+00:03:08,020  -->  00:03:14,190
+die erfüllt sein soll. Die Bedingungen können
+mit Anführungszeichen geschrieben werden,
+
+27
+
+00:03:14,190  -->  00:03:22,890
+wie ich es hier tue. In unserem Fall ist die erste
+Bedingung "Ja“, da wir wollen, dass nur die Mannschaften
+
+28
+
+00:03:22,890  -->  00:03:29,320
+gezählt werden, die an der Champions League teilgenommen
+haben. Jetzt müssen wir in den zweiten Bereich und
+
+29
+
+00:03:29,320  -->  00:03:37,270
+einen damit verbundenen Zustand eingeben. Wir haben beschlossen,
+dass wir nur Mannschaften zählen wollen, die mehr als
+
+30
+
+00:03:37,270  -->  00:03:43,230
+60 Punkte verdient haben. Wählen Sie daher den Bereich,
+der die Anzahl der Punkte enthält, die von jedem
+
+31
+
+00:03:43,230  -->  00:03:51,740
+Team erreicht wurden, und geben Sie die Bedingung
+"größer als 60", ein. Wir können jetzt die
+
+32
+
+00:03:51,740  -->  00:03:58,880
+Formelzeile schließen. Das Ergebnis, das wir erzielt haben,
+ist, dass es vier Mannschaften gab, die an der Champions
+
+33
+
+00:03:58,880  -->  00:04:03,000
+League teilgenommen haben und
+mehr als 60 Punkte verdient haben.

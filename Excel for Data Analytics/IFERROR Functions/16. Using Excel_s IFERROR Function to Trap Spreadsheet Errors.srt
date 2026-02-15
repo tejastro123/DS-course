@@ -1,0 +1,94 @@
+1
+
+00:00:00,719  -->  00:00:06,410
+In diesem Beispiel haben wir die gleiche Tabelle, die
+wir in den vorherigen Übungen gesehen haben, mit
+
+2
+
+00:00:06,410  -->  00:00:12,780
+dem kleinen Unterschied, dass wir hier die Summe der
+gespielten Spiele und vierdienten Punkten berechnet haben.
+
+3
+
+00:00:12,780  -->  00:00:18,289
+In Spalte H wurde der Prozentsatz der
+Punkte berechnet, die jedes Team an der
+
+4
+
+00:00:18,289  -->  00:00:25,380
+Gesamtpunktzahl verdient hat. Es gibt jedoch ein kleines Problem.
+Wenn wir davon ausgehen, dass die Punktzahl der Hamburger
+
+5
+
+00:00:25,380  -->  00:00:31,720
+nicht zur Verfügung steht, zeigt die Formel, die den
+Hamburger Prozentsatz von den Gesamtpunkten berechnet, eine
+
+6
+
+00:00:31,720  -->  00:00:39,720
+Fehlermeldung an. Es gibt einen schönen Weg, mit
+solchen Fehlern umzugehen: WENNFEHLER. Die Formel
+
+7
+
+00:00:39,720  -->  00:00:45,440
+besteht aus zwei Teilen: Erstens müssen Sie angeben,
+welche Zelle auf einen Fehler getestet wird,
+
+8
+
+00:00:45,440  -->  00:00:52,800
+und zweitens müssen Sie einen Wert auswählen, den
+sie haben sollte, falls es einen Fehler gibt. In
+
+9
+
+00:00:52,800  -->  00:00:59,260
+unserem aktuellen Fall werden wir folgendes
+haben. Tippem Sie "WENNFEHLER" vor die Formel,
+
+10
+
+00:00:59,260  -->  00:01:06,070
+die Prozentsätze berechnet ein und lassen Sie den Inhalt
+der Formel als Argument, das auf einen Fehler getestet
+
+11
+
+00:01:06,070  -->  00:01:12,880
+werden soll stehen. Das zweite Argument, das
+ausgewählt werden muss, ist, was wir anzeigen wollen,
+
+12
+
+00:01:12,880  -->  00:01:19,610
+wenn ein Fehler vorliegt. Sie können wählen, ob Sie eine Nummer
+oder eine Textnachricht auswählen, oder Sie sie leer lassen
+
+13
+
+00:01:19,610  -->  00:01:26,080
+möchten. In diesem Fall möchte ich, dass die Formel
+bei einem Fehler "nicht verfügbar" angezeigt.
+
+14
+
+00:01:26,080  -->  00:01:35,049
+OK, also ist die Formel fertig. Lassen Sie uns es
+für den gesamten Bereich einfügen. Und tatsächlich
+
+15
+
+00:01:35,049  -->  00:01:40,299
+sehen wir, dass sofort an dem Ort, an dem
+wir vorher einen Fehler hatten, jetzt "n.a"
+
+16
+
+00:01:40,299  -->  00:01:41,569
+geschrieben steht.
